@@ -7,7 +7,7 @@
 
 
 /*
- * Objective: Get a temperature-adjusted TDS value from sensors and send over to Arduino over i2c bus
+ * Objective: Get values for temperature, total dissolved solids, and turbidity from sensors and send over to Arduino over i2c bus
  *
  * HARDWARE CONNECTIONS:
  * 		DS18B20
@@ -21,13 +21,13 @@
  * 			A <-> PA1 (STM32)
  *
  * 		Turbidity sensor
- * 			VCC <-> 5V
+ * 			VCC <-> 3.3V
  * 			GND <-> GND
  * 			A <-> PA2 (STM32)
  *
  * 		STM32
  *			PA3 <-> DQ (DS18B20) (hanging off 4.7kOhm pull up resistor connected to +Vdd)
- *			PA1 <-> A (TDS sensor)
+ *			PA1 <-> Analog output of TDS sensor
  *			PB6 <-> SCLK (i2c to Arduino) ~~~ Use 5V to 3.3V logic level converter to interface between the 2 boards~~~
  *			PB7 <-> SDA (i2c to Arduino) ~~~ Use 5V to 3.3V logic level converter to interface between the 2 boards~~~
  *
