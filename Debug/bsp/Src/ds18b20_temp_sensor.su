@@ -1,0 +1,8 @@
+../bsp/Src/ds18b20_temp_sensor.c:16:6:DS18B20_Config	8	static
+../bsp/Src/ds18b20_temp_sensor.c:37:6:DS18B20_MasterSendData	24	static
+../bsp/Src/ds18b20_temp_sensor.c:61:6:DS18B20_MasterReceiveData	24	static
+../bsp/Src/ds18b20_temp_sensor.c:90:6:DS18B20_MasterSendInitializeSequence	8	static
+../bsp/Src/ds18b20_temp_sensor.c:116:6:DS18B20_MasterGenerateWriteTimeSlot	16	static
+../bsp/Src/ds18b20_temp_sensor.c:140:9:DS18B20_MasterGenerateReadTimeSlot	16	static
+../bsp/Src/ds18b20_temp_sensor.c:161:7:DS18B20_ConvertTemp	24	static
+../bsp/Src/ds18b20_temp_sensor.c:173:13:DS18B20_GPIOControl	16	static

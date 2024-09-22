@@ -1,0 +1,4 @@
+../Src/014usart_tx.c:41:5:main	2
+../Src/014usart_tx.c:70:6:initialize_gpios	1
+../Src/014usart_tx.c:104:6:initialize_usart	1
+../Src/014usart_tx.c:122:6:delay	2
